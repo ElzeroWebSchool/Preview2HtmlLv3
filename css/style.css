@@ -1,0 +1,584 @@
+/* Start Our Framework */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    position: relative
+}
+
+.table {
+    height: 100%;
+    display: table
+}
+
+.table-row {
+    display: table-row
+}
+
+.text-center {
+    text-align: center
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.main-color {
+    color: #f7600e
+}
+
+.main-background {
+    background-color: #f7600e
+}
+
+.overlay {
+    background: rgba(49, 55, 61, .9);
+    width: 100%;
+    height: 100%
+}
+
+.hidden {
+    display: none
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px
+}
+
+:-moz-input-placeholder {
+    font-size: 14px
+}
+
+:-ms-input-placeholder {
+    font-size: 14px
+}
+
+/* End Our Framework */
+
+/* Start Header */
+
+
+.header {
+    background: url('../images/header_stock.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.header .navbar .logo {
+    font-size: 24px
+}
+
+.header .navbar .links {
+    float: right
+}
+
+.header .navbar .links i {
+    margin-left: 5px
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800
+}
+
+.header .intro p {
+    margin: 5px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #E2E2E2
+}
+
+.header .buttons button {
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.header .buttons button:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #FFF
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0
+}
+
+.header .arrow i {
+    border: 2px solid #7B7B7B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 32px;
+    cursor: pointer
+}
+
+/* End Header */
+
+/* Start Features */
+
+.features {
+    padding: 80px 0;
+    overflow: hidden
+}
+
+.features .box {
+    width: 22%;
+    float: left;
+    margin-right: 4%
+}
+
+.features .box:last-child {
+    margin-right: 0
+}
+
+.features .box i {
+    color: #f7600e;
+    border: 1px solid #CCC;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    line-height: 120px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.features .box i:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #FFF
+}
+
+.features .box h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #505050
+}
+
+.features .box p {
+    line-height: 2;
+    color: #888
+}
+
+/* End Features */
+
+/* Start Subscribe */
+
+.subscribe {
+    background: url('../images/subscribe.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.subscribe form {
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center
+}
+
+.subscribe form input[type="email"] {
+    padding: 0 10px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    border: none;
+    height: 37px;
+    line-height: 37px
+}
+
+.subscribe form button {
+    padding: 10px;
+    width: 200px;
+    border: 1px s;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px
+}
+
+/* End Subscribe */
+
+/* Start Our Work */
+
+.our-work {
+    padding: 50px 0
+}
+
+.our-work h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0
+}
+
+.our-work h2 ~ p {
+    line-height: 2;
+    margin: 10px 0 40px
+}
+
+.our-work .show-more {
+    background: transparent;
+    border: 1px solid #CCC;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.our-work .show-more:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #FFF
+}
+
+.our-work .items-box {
+    overflow: hidden
+}
+
+.our-work .items-box .item {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 1.33333%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+    height: 403px
+}
+
+.our-work .items-box .item:hover .over {
+    display: block
+}
+
+.our-work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .9);
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none
+}
+
+.our-work .item .over h4 {
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 0
+}
+
+.our-work .item .over p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 2
+}
+
+.our-work .item .over button {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.our-work .item .over button:hover {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #f7600e
+}
+
+/* End Our Work */
+
+/* Start Testimonials */
+
+.testim {
+    background: url('../images/testimonials.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.testim .container {
+    min-height: 392px
+}
+
+.testim .client {
+    padding: 50px 0;
+    color: #FFF;
+    font-size: 20px
+}
+
+.testim .client img {
+    border-radius: 50%
+}
+
+.testim .client p {
+    line-height: 2;
+    font-style: italic
+}
+
+.testim .fa-chevron-right,
+.testim .fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer
+}
+
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover {
+    color: #f7600e
+}
+
+.testim .fa-chevron-right {
+    right: 0
+}
+
+.testim .fa-chevron-left {
+    left: 0
+}
+
+/* End Testimonials */
+
+/* Start Our Team */
+
+.our-team {
+    padding: 50px 0
+}
+
+.our-team h2 {
+    font-size: 35px;
+    margin-bottom: 0
+}
+
+.our-team .main {
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+    font-size: 20px
+}
+
+.our-team .the-team {
+    overflow: hidden
+}
+
+.our-team .the-team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #888
+}
+
+.our-team .the-team .person:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0)
+}
+
+.our-team .the-team .person:hover {
+    color: #555
+}
+
+.our-team .the-team .person:hover .fa-facebook {
+    background-color: #3b5998
+}
+
+.our-team .the-team .person:hover .fa-twitter {
+    background-color: #55acee
+}
+
+.our-team .the-team .person:hover .fa-google-plus {
+    background-color: #dc4e41
+}
+
+
+.our-team .the-team .person img {
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1)
+}
+
+.our-team .the-team .person p {
+    font-size: 15px
+}
+
+.our-team .the-team .social-icons i {
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 50%;
+}
+
+/* End Our Team */
+
+/* Start Contact Form */
+
+.contact {
+    background: url('../images/city.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.contact .overlay {
+    padding: 50px 0;
+    color: #FFF
+}
+
+.contact h2 {
+    font-size: 35px
+}
+
+.contact form {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC
+}
+
+.contact form input[type="text"] {
+    float: left
+}
+
+.contact form input[type="email"] {
+    float: right
+}
+
+.contact form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #CCC
+}
+
+.contact form .info {
+    overflow: hidden;
+    margin-top: 10px
+}
+
+.contact form .info button {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border: 1px s;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px
+}
+
+.contact form .info .form-icons {
+    float: right
+}
+
+.contact form .info .form-icons i {
+    background-color: #9da1a5;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+}
+
+.contact form .info .form-icons .fa-facebook {
+    background-color: #3b5998
+}
+
+.contact form .info .form-icons .fa-twitter {
+    background-color: #55acee
+}
+
+.contact form .info .form-icons .fa-google-plus {
+    background-color: #dc4e41
+}
+
+/* End Contact Form */
+
+/* Start Footer */
+
+.footer {
+    background-color: #3b434c;
+    color: #FFF;
+    overflow: hidden;
+    padding: 30px 0
+}
+
+.footer .copyright {
+    float: left
+}
+
+.footer .design {
+    float: right
+}
+
+/* End Footer */
